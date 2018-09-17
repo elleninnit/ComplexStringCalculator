@@ -5,18 +5,15 @@ import java.util.Stack;
 import org.springframework.stereotype.Component;
 
 import operations.Operator;
-import validator.Validator;
 
 @Component
 public class InfixToPostfix {
-
-    private static Validator validator = new Validator();
 
     private static boolean isHigerPrecedence(char ch1, char ch2) {
         return (Operator.isOperator(ch2) && (Operator.getOperatorForChar(ch2).getPrecedence() >= Operator.getOperatorForChar(ch1).getPrecedence()));
     }
 
-    private static String convertToPostfix(String input) {
+    public String convertToPostfix(String input) {
 
         Stack<Character> operatorStack = new Stack<>();
         StringBuilder postfix = new StringBuilder(input.length());
