@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+extraProperties=sonar.host.url\=https\://sonarqube.lmera.ericsson.se/\r\nsonar.login\=71bb7eba8f3d1ab0b1f6c58f65b986b14bf7675a\r\nsonar.analysis.mode\=preview
+projectKey=com.ericsson.complexstringcalculator\:ComplexStringCalculator
+serverUrl=http\://localhost\:9000
+version=2
