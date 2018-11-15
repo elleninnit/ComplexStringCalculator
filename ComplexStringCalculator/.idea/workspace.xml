@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5348f0fd-2902-4c74-8b69-edf627dea114" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/integration/CucumberTestCalculatorIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/integration/Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/integration/WebRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/calculator.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.scannerwork/jacoco-overall.exec" beforeDir="false" afterPath="$PROJECT_DIR$/.scannerwork/jacoco-overall.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.scannerwork/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.scannerwork/report-task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/calculator/ComplexStringCalculatorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/calculator/ComplexStringCalculatorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Divide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Divide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Multiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Subtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Subtract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/validator/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/validator/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorServiceSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorServiceSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/TestCalculatorIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,7 +44,7 @@
           <entry key="feature" value="12" />
           <entry key="groovy" value="16" />
           <entry key="html" value="1" />
-          <entry key="java" value="111" />
+          <entry key="java" value="115" />
           <entry key="js" value="10" />
           <entry key="xml" value="5" />
         </counts>
@@ -83,7 +54,7 @@
           <entry key="Cucumber" value="12" />
           <entry key="Groovy" value="16" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="111" />
+          <entry key="JAVA" value="115" />
           <entry key="JavaScript" value="10" />
           <entry key="UML" value="4" />
           <entry key="XML" value="5" />
@@ -95,7 +66,7 @@
           <entry key="dummy" value="1" />
           <entry key="feature" value="461" />
           <entry key="groovy" value="631" />
-          <entry key="java" value="4060" />
+          <entry key="java" value="4212" />
           <entry key="js" value="58" />
           <entry key="xml" value="27" />
         </counts>
@@ -104,7 +75,7 @@
         <counts>
           <entry key="Cucumber" value="461" />
           <entry key="Groovy" value="631" />
-          <entry key="JAVA" value="4060" />
+          <entry key="JAVA" value="4212" />
           <entry key="JavaScript" value="58" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="27" />
@@ -117,7 +88,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -125,6 +96,45 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/operations/Operation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -161,19 +171,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Multiply.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Divide.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/calculator/ComplexStringCalculatorApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorServiceSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/features/calculator.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/integration/Steps.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/calculator.js" />
         <option value="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/integration/WebRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorRestController.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java" />
       </list>
     </option>
   </component>
@@ -266,15 +276,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ericsson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComplexStringCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ericsson" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
@@ -392,7 +393,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542215217763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542288852017" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -533,7 +534,7 @@
       <workItem from="1542035896816" duration="10272000" />
       <workItem from="1542106664322" duration="7758000" />
       <workItem from="1542204240497" duration="2288000" />
-      <workItem from="1542284966239" duration="16000" />
+      <workItem from="1542284966239" duration="831000" />
     </task>
     <servers />
   </component>
@@ -570,7 +571,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86212000" />
+    <option name="totallyTimeSpent" value="87027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,7 +586,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1119403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25426438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -608,7 +609,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="13" weight="0.9667705" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.057421453" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.13542795" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -910,13 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/test/web/servlet/MockMvc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
@@ -979,31 +973,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorRestController.java" />
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.groovy" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="111" column="35" lean-forward="true" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1021,6 +996,37 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/operations/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>

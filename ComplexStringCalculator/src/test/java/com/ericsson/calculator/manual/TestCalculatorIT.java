@@ -22,7 +22,10 @@ public class TestCalculatorIT {
         driver.get("http://localhost:8080/");
     }
 
+    // file path to chrome driver for linux
     ///mnt/eleohlt/home/Documents/Git/ComplexStringCalculator/ComplexStringCalculator/chromedriver
+
+    // file path to chrome driver for windows
     //C:\\Users\\eleohlt\\Documents\\Git\\ComplexStringCalculator\\ComplexStringCalculator\\chromedriver.exe
 
     @Test

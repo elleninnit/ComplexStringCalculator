@@ -9,8 +9,8 @@ public class CalculatorRestControllerAdvice {
 
     @ExceptionHandler(IllegalArgumentException.class)
     @ResponseBody
-    public final ResponseEntity<Object> handleIllegalArgumentException() {
-        return new ResponseEntity<>( HttpStatus.BAD_REQUEST);
+    public final ResponseEntity<Object> handleIllegalArgumentException(String message) {
+        return new ResponseEntity<>(message, HttpStatus.BAD_REQUEST);
     }
 
 }
