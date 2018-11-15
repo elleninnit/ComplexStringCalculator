@@ -1,12 +1,17 @@
 package com.ericsson.business;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.ericsson.converter.InfixToPostfix;
 import com.ericsson.operations.Calculator;
 import com.ericsson.validator.Validator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
+@RequestMapping("/calculator")
 @Service
 public class CalculatorService {
 
@@ -19,12 +24,14 @@ public class CalculatorService {
     @Autowired
     private Calculator calculate;
 
-    public String calculate(final String infixExpression) {
-        
+    @RequestMapping(method = RequestMethod.GET)
+    public String calculate(@RequestParam String infixExpression) {
         String infixExpressionSpacesRemoved = infixExpression.replaceAll("\\s", "");
-        
-        if (validator.validate(infixExpressionSpacesRemoved)) {
-            String postfixExpression = convert.convertToPostfix(infixExpressionSpacesRemoved);
+        // NEEDED FOR INTEGRATION TEST
+        String infixExpressionDecoded = infixExpressionSpacesRemoved.replaceAll("%2B", "+");
+
+        if (validator.validate(infixExpressionDecoded)) {
+            String postfixExpression = convert.convertToPostfix(infixExpressionDecoded);
             return calculate.calculateExpression(postfixExpression);
         } else {
             throw new IllegalArgumentException(

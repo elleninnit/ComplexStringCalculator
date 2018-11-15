@@ -11,9 +11,9 @@ import com.ericsson.operations.Operator;
 public class Validator {
 
     /**
-    *   Used to split string on certain characters but also preserve those characters as tokens
-    *   https://stackoverflow.com/questions/2206378/how-to-split-a-string-but-also-keep-the-delimiters
-    */
+     * Used to split string on certain characters but also preserve those characters as tokens
+     * https://stackoverflow.com/questions/2206378/how-to-split-a-string-but-also-keep-the-delimiters
+     */
     private static final String SPLIT_STRING = "((?<=%1$s)|(?=%1$s))";
     private static final String VALID_INFIX_REGEX = "^[0-9(]([\\s0-9+*/()-])*[0-9)]$";
 
@@ -27,15 +27,16 @@ public class Validator {
         final Matcher matcher = pattern.matcher(input);
 
         if (!matcher.matches()) {
-            throw new IllegalArgumentException("Invalid input detected. Argument at position: ["
-                    + Integer.toString(getIndexOfFailedRegexMatcher(pattern, input)) + "] is not valid operator or in illegal position.");
+            throw new IllegalArgumentException(
+                    "Invalid input detected. Argument at position: [" + Integer.toString(getIndexOfFailedRegexMatcher(pattern, input))
+                            + "] is not valid operator or in illegal position.");
         } else {
             return matcher.matches();
         }
     }
 
     /**
-     *  taken from https://stackoverflow.com/questions/5666486/how-to-determine-where-a-regex-failed-to-match-using-java-apis
+     * taken from https://stackoverflow.com/questions/5666486/how-to-determine-where-a-regex-failed-to-match-using-java-apis
      */
     private int getIndexOfFailedRegexMatcher(Pattern pattern, String input) {
         Matcher matcher = pattern.matcher(input);
@@ -79,8 +80,9 @@ public class Validator {
             if (Operator.isOperator(tokens[i])) {
 
                 if ("(".equals(tokens[i - 1]) || ")".equals(tokens[i + 1]) || Operator.isOperator(tokens[i + 1])) {
-                    throw new IllegalArgumentException("Double operators found: [" + tokens[i] + tokens[i + 1] + "] at postition ["
-                            + Integer.toString(i) + "]. Double operators not supported!");
+                    throw new IllegalArgumentException(
+                            "Double operators found: [" + tokens[i] + tokens[i + 1] + "] at postition [" + Integer.toString(i)
+                                    + "]. Double operators not supported!");
                 }
             }
         }

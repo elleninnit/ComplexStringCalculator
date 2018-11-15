@@ -14,21 +14,12 @@ function calculate() {
 		contentType : "application/json",
 		dataType : "text",
 		data : {
-			infixExpression : decodeURIComponent(infixExpression)
+			infixExpression : infixExpression
 		},
 		success : function(result) {
+            console.log(infixExpression)
 			console.log(result)
 			$("#result").text(result);
-		},
-		error : function() {
-			//alertModal();
 		}
 	});
 };
-
-function alertModal() {
-	$('#alert-modal-title').html("Please Try Again!");
-	$('#alert-modal-body').html(
-			"Invalid arguments inputted. Calculator accepts only 0-9 +-/*().");
-	$('#alert-modal').modal('show');
-}

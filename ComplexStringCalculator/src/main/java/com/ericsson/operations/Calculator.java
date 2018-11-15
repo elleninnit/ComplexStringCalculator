@@ -21,11 +21,11 @@ public class Calculator {
             if (!Operator.isOperator(token)) {
                 evalStack.push(token);
             } else {
-                String val2 = evalStack.pop();
-                String val1 = evalStack.pop();
+                int val2 = Integer.parseInt(evalStack.pop());
+                int val1 = Integer.parseInt(evalStack.pop());
 
                 Operation op = factory.executeOperation(token);
-                String result = op.calc(val1, val2);
+                String result = String.valueOf(op.calc(val1, val2));
 
                 evalStack.push(result);
             }

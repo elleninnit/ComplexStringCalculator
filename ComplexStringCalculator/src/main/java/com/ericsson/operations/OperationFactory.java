@@ -4,18 +4,29 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class OperationFactory {
-    
+
+    private static Add add;
+    private static Subtract subtract;
+    private static Multiply multiply;
+    private static Divide divide;
+
+    static {
+        add = new Add();
+        subtract = new Subtract();
+        multiply = new Multiply();
+        divide = new Divide();
+    }
+
     public Operation executeOperation(String operator) {
         if ("+".equals(operator)) {
-            return new Add();
+            return add;
         } else if ("-".equals(operator)) {
-            return new Subtract();
+            return subtract;
         } else if ("*".equals(operator)) {
-            return new Multiply();
+            return multiply;
         } else if ("/".equals(operator)) {
-            return new Divide();
+            return divide;
         }
-        return null;
+        throw new IllegalArgumentException("Invalid Operator Found");
     }
-    
 }

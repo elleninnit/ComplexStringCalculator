@@ -20,6 +20,7 @@
 		<sonar.host.url>https://sonarqube.lmera.ericsson.se/</sonar.host.url>
 		<sonar.login>71bb7eba8f3d1ab0b1f6c58f65b986b14bf7675a</sonar.login>
 		<sonar.analysis.mode>preview</sonar.analysis.mode>
+		<cucumber.version>1.2.5</cucumber.version>
 		<maven.sonar-plugin.version>3.2</maven.sonar-plugin.version>
 		<maven.jacoco-plugin.version>0.8.0</maven.jacoco-plugin.version>
 	</properties>
@@ -102,51 +103,51 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>io.fabric8</groupId>
-				<artifactId>docker-maven-plugin</artifactId>
-				<version>0.27.1</version>
-				<configuration>
-					<verbose>true</verbose>
-					<images>
-						<image>
-							<name>complex-string-calculator:${project.version}</name>
-							<build>
-								<dockerFileDir>${project.basedir}</dockerFileDir>
-							</build>
-							<run>
-								<ports>
-									<port>8080:8080</port>
-								</ports>
-								<wait>
-									<http>
-										<url>http://172.17.0.2:8080/</url>
-										<method>GET</method>
-									</http>
-									<time>100000</time>
-								</wait>
-							</run>
-						</image>
-					</images>
-				</configuration>
-				<executions>
-					<execution>
-						<id>start</id>
-						<phase>pre-integration-test</phase>
-						<goals>
-							<goal>build</goal>
-							<goal>start</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>stop</id>
-						<phase>post-integration-test</phase>
-						<goals>
-							<goal>stop</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+			<!--<plugin>-->
+				<!--<groupId>io.fabric8</groupId>-->
+				<!--<artifactId>docker-maven-plugin</artifactId>-->
+				<!--<version>0.27.1</version>-->
+				<!--<configuration>-->
+					<!--<verbose>true</verbose>-->
+					<!--<images>-->
+						<!--<image>-->
+							<!--<name>complex-string-calculator:${project.version}</name>-->
+							<!--<build>-->
+								<!--<dockerFileDir>${project.basedir}</dockerFileDir>-->
+							<!--</build>-->
+							<!--<run>-->
+								<!--<ports>-->
+									<!--<port>8080:8080</port>-->
+								<!--</ports>-->
+								<!--<wait>-->
+									<!--<http>-->
+										<!--<url>http://172.17.0.2:8080/</url>-->
+										<!--<method>GET</method>-->
+									<!--</http>-->
+									<!--<time>100000</time>-->
+								<!--</wait>-->
+							<!--</run>-->
+						<!--</image>-->
+					<!--</images>-->
+				<!--</configuration>-->
+				<!--<executions>-->
+					<!--<execution>-->
+						<!--<id>start</id>-->
+						<!--<phase>pre-integration-test</phase>-->
+						<!--<goals>-->
+							<!--<goal>build</goal>-->
+							<!--<goal>start</goal>-->
+						<!--</goals>-->
+					<!--</execution>-->
+					<!--<execution>-->
+						<!--<id>stop</id>-->
+						<!--<phase>post-integration-test</phase>-->
+						<!--<goals>-->
+							<!--<goal>stop</goal>-->
+						<!--</goals>-->
+					<!--</execution>-->
+				<!--</executions>-->
+			<!--</plugin>-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-failsafe-plugin</artifactId>
@@ -210,6 +211,19 @@
 			<artifactId>spock-spring</artifactId>
 			<version>1.1-groovy-2.4</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>${cucumber.version}</version>
 		</dependency>
 
 	</dependencies>

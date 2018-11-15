@@ -2,5 +2,5 @@ projectKey=com.ericsson.complexstringcalculator.ComplexStringCalculator
 serverUrl=http://localhost:9000
 serverVersion=6.7.5.38563
 dashboardUrl=http://localhost:9000/dashboard/index/com.ericsson.complexstringcalculator.ComplexStringCalculator
-ceTaskId=AWYwYFTCK3D2D_CqSzEO
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWYwYFTCK3D2D_CqSzEO
+ceTaskId=AWcSjiMU4Wo8UKmjuAX4
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWcSjiMU4Wo8UKmjuAX4

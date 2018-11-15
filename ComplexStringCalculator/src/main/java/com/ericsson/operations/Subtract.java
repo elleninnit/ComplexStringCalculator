@@ -3,9 +3,8 @@ package com.ericsson.operations;
 public class Subtract implements Operation {
 
     @Override
-    public String calc(String val1, String val2) {
-        int result = Math.subtractExact(Integer.parseInt(val1), Integer.parseInt(val2));
-        return Integer.toString(result);
+    public int calc(int val1, int val2) {
+        return val1 - val2;
     }
 
 }
