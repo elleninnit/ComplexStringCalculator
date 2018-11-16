@@ -25,7 +25,7 @@ public class CalculatorService {
     private Calculator calculate;
 
     @RequestMapping(method = RequestMethod.GET)
-    public String calculate(@RequestParam String infixExpression) {
+    public String calculate(@RequestParam("infixExpression") String infixExpression) {
         String infixExpressionSpacesRemoved = infixExpression.replaceAll("\\s", "");
         // NEEDED FOR INTEGRATION TEST
         String infixExpressionDecoded = infixExpressionSpacesRemoved.replaceAll("%2B", "+");

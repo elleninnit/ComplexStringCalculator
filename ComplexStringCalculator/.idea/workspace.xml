@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5348f0fd-2902-4c74-8b69-edf627dea114" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/jacoco-merged.exec" beforeDir="false" afterPath="$PROJECT_DIR$/.scannerwork/jacoco-merged.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/jacoco-overall.exec" beforeDir="false" afterPath="$PROJECT_DIR$/.scannerwork/jacoco-overall.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.scannerwork/report-task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chromedriver.exe" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,9 +46,9 @@
           <entry key="MODULES/mdl-ComplexStringCalculator" value="2" />
           <entry key="Validator" value="1" />
           <entry key="feature" value="12" />
-          <entry key="groovy" value="16" />
+          <entry key="groovy" value="19" />
           <entry key="html" value="1" />
-          <entry key="java" value="115" />
+          <entry key="java" value="126" />
           <entry key="js" value="10" />
           <entry key="xml" value="5" />
         </counts>
@@ -52,9 +56,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Cucumber" value="12" />
-          <entry key="Groovy" value="16" />
+          <entry key="Groovy" value="19" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="115" />
+          <entry key="JAVA" value="126" />
           <entry key="JavaScript" value="10" />
           <entry key="UML" value="4" />
           <entry key="XML" value="5" />
@@ -65,8 +69,8 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="feature" value="461" />
-          <entry key="groovy" value="631" />
-          <entry key="java" value="4212" />
+          <entry key="groovy" value="1022" />
+          <entry key="java" value="4422" />
           <entry key="js" value="58" />
           <entry key="xml" value="27" />
         </counts>
@@ -74,8 +78,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="461" />
-          <entry key="Groovy" value="631" />
-          <entry key="JAVA" value="4212" />
+          <entry key="Groovy" value="1022" />
+          <entry key="JAVA" value="4422" />
           <entry key="JavaScript" value="58" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="27" />
@@ -91,29 +95,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="207">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/operations/Operation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -122,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,10 +117,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            <state relative-caret-position="510">
+              <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+              <folding>
+                <element signature="e#35#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/test/web/servlet/ResultActions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -171,19 +169,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Multiply.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Divide.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/calculator/ComplexStringCalculatorApplication.java" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorServiceSpec.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/features/calculator.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/integration/Steps.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/calculator.js" />
         <option value="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/integration/WebRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorRestController.java" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.groovy" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/operations/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorServiceSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.groovy" />
       </list>
     </option>
   </component>
@@ -217,9 +217,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -284,36 +285,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ericsson" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComplexStringCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ericsson" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComplexStringCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ericsson" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComplexStringCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComplexStringCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComplexStringCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComplexStringCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -345,15 +340,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComplexStringCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComplexStringCalculator" type="b2602c69:ProjectViewProjectNode" />
@@ -393,7 +379,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542288852017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542369464803" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -429,7 +415,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ComplexStringCalculatorApplication">
+  <component name="RunManager" selected="JUnit.CalculatorRestControllerSpec.Controller should return status OK when calculation call is successful">
     <configuration name="CalculatorRestControllerSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ComplexStringCalculator" />
       <extension name="coverage">
@@ -440,6 +426,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ericsson.calculator" />
       <option name="MAIN_CLASS_NAME" value="com.ericsson.calculator.CalculatorRestControllerSpec" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorRestControllerSpec.Controller should return status BAD REQUEST when invalid input is passed into calculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ComplexStringCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericsson.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ericsson.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.ericsson.calculator.CalculatorRestControllerSpec" />
+      <option name="METHOD_NAME" value="Controller should return status BAD REQUEST when invalid input is passed into calculator" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -460,18 +462,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculator in ComplexStringCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="java in ComplexStringCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ComplexStringCalculator" />
       <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="groovy in ComplexStringCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ComplexStringCalculator" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/groovy" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -491,18 +485,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ComplexStringCalculatorApplication" />
-      <item itemvalue="JUnit.groovy in ComplexStringCalculator" />
-      <item itemvalue="JUnit.calculator in ComplexStringCalculator" />
       <item itemvalue="JUnit.CalculatorRestControllerSpec" />
       <item itemvalue="JUnit.CalculatorRestControllerSpec.Controller should return status OK when calculation call is successful" />
+      <item itemvalue="JUnit.java in ComplexStringCalculator" />
+      <item itemvalue="JUnit.CalculatorRestControllerSpec.Controller should return status BAD REQUEST when invalid input is passed into calculator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ComplexStringCalculatorApplication" />
-        <item itemvalue="JUnit.calculator in ComplexStringCalculator" />
-        <item itemvalue="JUnit.groovy in ComplexStringCalculator" />
         <item itemvalue="JUnit.CalculatorRestControllerSpec.Controller should return status OK when calculation call is successful" />
+        <item itemvalue="Spring Boot.ComplexStringCalculatorApplication" />
+        <item itemvalue="JUnit.CalculatorRestControllerSpec.Controller should return status BAD REQUEST when invalid input is passed into calculator" />
         <item itemvalue="JUnit.CalculatorRestControllerSpec" />
+        <item itemvalue="JUnit.java in ComplexStringCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -534,44 +528,44 @@
       <workItem from="1542035896816" duration="10272000" />
       <workItem from="1542106664322" duration="7758000" />
       <workItem from="1542204240497" duration="2288000" />
-      <workItem from="1542284966239" duration="831000" />
+      <workItem from="1542284966239" duration="16009000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorRestControllerSpec - 2018.11.13 at 12h 03m 18s.xml">
-      <configuration name="CalculatorRestControllerSpec" configurationId="JUnit" />
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_BAD_REQUEST_when_invalid_input_is_passed_into_calculator - 2018.11.16 at 11h 05m 42s.xml">
+      <configuration name="CalculatorRestControllerSpec.Controller should return status BAD REQUEST when invalid input is passed into calculator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorRestControllerSpec - 2018.11.13 at 12h 04m 03s.xml">
-      <configuration name="CalculatorRestControllerSpec" configurationId="JUnit" />
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_BAD_REQUEST_when_invalid_input_is_passed_into_calculator - 2018.11.16 at 11h 06m 32s.xml">
+      <configuration name="CalculatorRestControllerSpec.Controller should return status BAD REQUEST when invalid input is passed into calculator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorRestControllerSpec - 2018.11.13 at 12h 06m 53s.xml">
-      <configuration name="CalculatorRestControllerSpec" configurationId="JUnit" />
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_BAD_REQUEST_when_invalid_input_is_passed_into_calculator - 2018.11.16 at 11h 10m 30s.xml">
+      <configuration name="CalculatorRestControllerSpec.Controller should return status BAD REQUEST when invalid input is passed into calculator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorRestControllerSpec - 2018.11.13 at 12h 07m 22s.xml">
-      <configuration name="CalculatorRestControllerSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorRestControllerSpec - 2018.11.13 at 12h 09m 12s.xml">
-      <configuration name="CalculatorRestControllerSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorRestControllerSpec - 2018.11.13 at 12h 10m 42s.xml">
-      <configuration name="CalculatorRestControllerSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorRestControllerSpec - 2018.11.13 at 12h 12m 01s.xml">
-      <configuration name="CalculatorRestControllerSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_OK_when_calculation_call_is_successful - 2018.11.13 at 12h 12m 41s.xml">
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_OK_when_calculation_call_is_successful - 2018.11.16 at 11h 37m 03s.xml">
       <configuration name="CalculatorRestControllerSpec.Controller should return status OK when calculation call is successful" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="groovy_in_ComplexStringCalculator - 2018.11.13 at 12h 17m 03s.xml">
-      <configuration name="groovy in ComplexStringCalculator" configurationId="JUnit" />
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_BAD_REQUEST_when_invalid_input_is_passed_into_calculator - 2018.11.16 at 11h 40m 36s.xml">
+      <configuration name="CalculatorRestControllerSpec.Controller should return status BAD REQUEST when invalid input is passed into calculator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="calculator_in_ComplexStringCalculator - 2018.11.13 at 14h 02m 04s.xml">
-      <configuration name="calculator in ComplexStringCalculator" configurationId="JUnit" />
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_OK_when_calculation_call_is_successful - 2018.11.16 at 11h 43m 18s.xml">
+      <configuration name="CalculatorRestControllerSpec.Controller should return status OK when calculation call is successful" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_OK_when_calculation_call_is_successful - 2018.11.16 at 11h 47m 11s.xml">
+      <configuration name="CalculatorRestControllerSpec.Controller should return status OK when calculation call is successful" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_OK_when_calculation_call_is_successful - 2018.11.16 at 11h 48m 54s.xml">
+      <configuration name="CalculatorRestControllerSpec.Controller should return status OK when calculation call is successful" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_OK_when_calculation_call_is_successful - 2018.11.16 at 11h 48m 59s.xml">
+      <configuration name="CalculatorRestControllerSpec.Controller should return status OK when calculation call is successful" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorRestControllerSpec_Controller_should_return_status_OK_when_calculation_call_is_successful - 2018.11.16 at 11h 50m 06s.xml">
+      <configuration name="CalculatorRestControllerSpec.Controller should return status OK when calculation call is successful" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87027000" />
+    <option name="totallyTimeSpent" value="102205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,7 +580,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25426438" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24147122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -596,7 +590,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.5872156" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.14734562" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39328277" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,12 +598,12 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3434453" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Sequence" order="13" weight="0.9667705" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="12" weight="0.9667705" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.13542795" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" weight="0.20801733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -665,28 +659,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ericsson/calculator/Request.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="345" selection-start-line="345" selection-end-line="345" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/LogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="654" selection-start-line="654" selection-end-line="654" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/http/client/support/HttpAccessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -959,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorServiceSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/spockframework/spock-core/1.1-groovy-2.4/spock-core-1.1-groovy-2.4-sources.jar!/org/spockframework/util/ReflectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -974,7 +939,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorRestController.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.groovy" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -989,13 +953,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="561">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1008,25 +976,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/operations/OperationFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.0.0.RELEASE/spring-boot-test-2.0.0.RELEASE-sources.jar!/org/springframework/boot/test/mock/mockito/MockBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="-585">
+          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="49" column="3" lean-forward="true" selection-start-line="27" selection-end-line="49" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorServiceSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#33#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/business/CalculatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ericsson/calculator/manual/TestCalculatorIT.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericsson/web/CalculatorRestControllerAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/mock/web/MockFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.4.RELEASE/spring-test-5.0.4.RELEASE-sources.jar!/org/springframework/test/web/servlet/ResultActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/ericsson/calculator/CalculatorRestControllerSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+          <folding>
+            <element signature="e#35#77#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

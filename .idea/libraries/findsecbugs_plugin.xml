@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="findsecbugs-plugin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ComplexStringCalculator/target/sonar/findbugs/findsecbugs-plugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
